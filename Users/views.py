@@ -6,23 +6,18 @@ from .models import *
 
 
 def login(request):
-
-
-
-
     if request.method == 'POST':
         form_values = Login_Form(request.POST)
         user_email = form_values['user_email'].value()
         user_password = form_values['user_password'].value()
-        print(user_password)
+        #print(user_password)
         try:
-            user = User.objects.get(email=user_email)
+            user = User.objects.get(email=user_email, password = user_password)
             if user.password == user_password:
 
                 return redirect('Users:admin_page')
 
         except User.DoesNotExist:
-            #messages.error(request, 'User email does not esist')
             print('he he')
     form = Login_Form()
     return render(request, 'other-login.html', {'form': form})
