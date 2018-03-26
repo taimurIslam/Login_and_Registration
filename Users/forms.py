@@ -102,7 +102,14 @@ class Login_Form(forms.Form):
             attrs={
                 'id' : "inputPassword",
                 'class': "span12",
-                'placeholder': "Placeholder",
+                'placeholder': "Password",
                 'autocomplete': 'off'
+            }
+        ))
+class PasswordResetForm(forms.Form):
+    user_email = forms.CharField(
+        widget=forms.EmailInput(
+            attrs={
+                'placeholder': "Enter Your Email",
             }
         ))
