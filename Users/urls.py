@@ -4,6 +4,7 @@ from . import views
 app_name = 'Users'
 urlpatterns = [
     re_path('login/', views.login, name='login'),
+    re_path('logout/', views.logout, name='logout'),
     re_path('registration/', views.registration, name='registration'),
     re_path('admin_page/', views.admin_page, name='admin_page')
 ]

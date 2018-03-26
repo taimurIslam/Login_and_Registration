@@ -88,12 +88,12 @@ class Registration_Form(forms.Form):
         required=True,
     )
 class Login_Form(forms.Form):
-    user_email = forms.CharField(
+    user_username_or_email = forms.CharField(
         widget= forms.TextInput(
             attrs={
                 'id' : "inputEmail",
                 'class' : "span12",
-                'placeholder': "Email",
+                'placeholder': "User Name or Email",
                 'autocomplete': 'off'
             }
         ))
