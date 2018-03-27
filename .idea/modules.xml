@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Login_and_Registration.iml" filepath="$PROJECT_DIR$/.idea/Login_and_Registration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../smart-days/.idea/POC_Web_Smartdays.iml" filepath="$PROJECT_DIR$/../smart-days/.idea/POC_Web_Smartdays.iml" />
     </modules>
   </component>
 </project>
