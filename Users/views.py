@@ -13,10 +13,11 @@ def login(request):
     if 'logged_in' in request.session:
         if request.session['logged_in'] is True:
             return redirect('Users:admin_page')
+
     else:
         if request.method == 'GET':
             form = Login_Form()
-            return render(request, 'other-login.html', {'form': form})
+            return render(request, 'Users/login.html', {'form': form, 'browser_title': 'User Login'})
 
 
         elif request.method == 'POST':
@@ -44,7 +45,7 @@ def login(request):
                     messages.error(request, 'No user found by the Email or Username Provided')
 
                 return redirect('Users:login')
-
+# LOGOUT
 def logout(request):
     if 'logged_in' in request.session:
         del request.session['logged_in']
@@ -54,16 +55,38 @@ def logout(request):
         return redirect('Users:login')
     else:
         return redirect('Users:login')
-
+#Registration Form
 def registration(request):
-    return render(request, 'form.html')
+    form = Registration_Form()
+    if request.method == 'POST':
+        print('rrrrrrrr')
+        form_values = Registration_Form(request.POST or None, request.FILES)
+        if form_values.is_valid:
+            print('yyyyy')
+            new_user = User()
+            print('ggggggg')
+
+            # new_user.first_name = form_values['first_name'].value()
+            # new_user.last_name = form_values['last_name'].value()
+            # new_user.phone = form_values['phone_number'].value()
+            # new_user.email = form_values['email_address'].value()
+            # new_user.username = form_values['user_name'].value()
+            # new_user.password = form_values['user_password'].value()
+            # new_user.address = form_values['user_address'].value()
+            # new_user.photo = form_values.cleaned_data['user_photo']
+            # new_user.is_active = form_values['is_active'].value()
+            # new_user.role = form_values['is_active'].value()
+            new_user.save()
+            return redirect('Users:registration')
+
+    return render(request, 'Users/form.html', {'form': form,'username':request.session['username']})
 
 
 #@login_required('logged_in', 'Users:login')
 def admin_page(request):
     if 'logged_in' in request.session:
         if request.session['logged_in'] is True:
-            return render(request, 'index.html')
+            return render(request, 'Users/index.html', {'username':request.session['username']})
 
     else:
         return redirect('Users:login')

@@ -1,0 +1,38 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+				<div class="span9">
+					<div class="content">
+
+						<div class="module">
+							<div class="module-head">
+								<h3>Registration Form</h3>
+							</div>
+							<div class="module-body">
+									<form class="form-horizontal row-fluid" method="post" action="">
+										{%csrf_token%}
+
+										{% for fields in form %}
+										<div class="control-group">
+											<label class="control-label" for="basicinput">{{fields.label}}</label>
+											<div class="controls">
+												{{fields}}
+											</div>
+										</div>
+										{% endfor %}
+										<div class="control-group">
+											<div class="controls">
+												<button type="submit" class="btn" >Submit Form</button>
+											</div>
+										</div>
+									</form>
+							</div>
+						</div>
+
+						
+						
+					</div><!--/.content-->
+				</div><!--/.span9-->
+{% endblock %}
