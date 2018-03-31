@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b17ea4b-d652-4c5b-8fa9-1e9ae5faf9bd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/templates/Users/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Users/templates/Users/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +28,7 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Users/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="-106">
               <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -173,24 +170,6 @@
             </path>
             <path>
               <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
               <item name="SmartDays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,14 +248,20 @@
       <option name="project" value="LOCAL" />
       <updated>1522509834565</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit 9">
+      <created>1522521917683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522521917683</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15833333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15833333" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -285,7 +270,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32840723" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32784185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32125205" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32125205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,7 +287,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 8" />
+    <MESSAGE value="commit 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 9" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Users/views.py">
@@ -568,7 +554,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Users/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="-106">
           <caret line="14" column="71" lean-forward="true" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
