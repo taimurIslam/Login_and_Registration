@@ -3,6 +3,7 @@ from .forms import *
 from .models import *
 from django.contrib import messages
 from django.db.models import Q
+from django.core.exceptions import ValidationError
 #from .templates
 
 # Create your views here.
@@ -57,29 +58,19 @@ def logout(request):
         return redirect('Users:login')
 #Registration Form
 def registration(request):
-    form = Registration_Form()
+    arg = {}
+    arg['form'] = Registration_Form
     if request.method == 'POST':
-        print('rrrrrrrr')
-        form_values = Registration_Form(request.POST or None, request.FILES)
+        form_values = Registration_Form(request.POST, request.FILES)
         if form_values.is_valid:
-            print('yyyyy')
-            new_user = User()
-            print('ggggggg')
-
-            # new_user.first_name = form_values['first_name'].value()
-            # new_user.last_name = form_values['last_name'].value()
-            # new_user.phone = form_values['phone_number'].value()
-            # new_user.email = form_values['email_address'].value()
-            # new_user.username = form_values['user_name'].value()
-            # new_user.password = form_values['user_password'].value()
-            # new_user.address = form_values['user_address'].value()
-            # new_user.photo = form_values.cleaned_data['user_photo']
-            # new_user.is_active = form_values['is_active'].value()
-            # new_user.role = form_values['is_active'].value()
-            new_user.save()
+            print('kkkkkkkkkkkkk')
+            form_values.save()
             return redirect('Users:registration')
+        else:
+            return render(request, 'Users/form.html', arg)
 
-    return render(request, 'Users/form.html', {'form': form,'username':request.session['username']})
+
+    return render(request, 'Users/form.html', arg)
 
 
 #@login_required('logged_in', 'Users:login')

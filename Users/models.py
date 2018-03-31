@@ -3,7 +3,7 @@ from imagekit.conf import ImageKitConf
 from imagekit.models import ImageSpecField
 from imagekit.processors import SmartResize
 
-# Create your models here.
+# User Role models
 class Role(models.Model):
     role_title = models.CharField(max_length=50, unique=True)
 
@@ -13,6 +13,8 @@ class Role(models.Model):
         return dict(
             role_title = str(self.role_title),
         )
+#------------------------------------------------#
+# User models
 class User(models.Model):
     ImageKitConf.CACHEFILE_DIR = 'uploads/200/'
 
@@ -21,14 +23,12 @@ class User(models.Model):
     username = models.CharField(max_length=30, unique=True)
     password = models.CharField(max_length=100)
     email = models.EmailField(unique=True)
-    phone = models.CharField(max_length=13)
+    phone = models.CharField(max_length=20)
     address = models.CharField(max_length=100)
 
     photo = models.ImageField(upload_to='uploads/200/', default='uploads/200/default.png', blank=True)
-    thumb = ImageSpecField(
-        source=photo,
-        processors=[SmartResize(200,200)],
-    )
+    thumb = ImageSpecField(source = 'photo', processors=[SmartResize(200,200)],)
+
     role = models.ForeignKey('Role', default=1, on_delete=models.CASCADE)
     is_active = models.BooleanField(default=True)
     activation_code = models.CharField(max_length=50)
@@ -54,3 +54,4 @@ class User(models.Model):
         )
     def is_authenticated(self):
         pass
+#------------------------------------------------------#
