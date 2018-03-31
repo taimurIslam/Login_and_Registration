@@ -14,7 +14,14 @@
 									<form class="form-horizontal row-fluid" method="post" enctype="multipart/form-data" action="{%url 'Users:registration'%}">
 										{%csrf_token%}
 
+                                        {% if form.non_field_errors %}
+                                            {{ form.non_field_errors }}
+                                        {% endif %}
+
 										{% for fields in form %}
+                                            {% if field.errors %}
+                                                {{ field.errors }}
+                                            {% endif %}
 										<div class="control-group">
 											<label class="control-label" for="basicinput">{{fields.label}}</label>
 											<div class="controls">

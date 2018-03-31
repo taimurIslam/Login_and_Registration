@@ -59,14 +59,15 @@ def logout(request):
 #Registration Form
 def registration(request):
     arg = {}
-    arg['form'] = Registration_Form
+    arg['form'] = Registration_Form(use_required_attribute=False)
     if request.method == 'POST':
-        form_values = Registration_Form(request.POST, request.FILES)
-        if form_values.is_valid:
+        form_values = Registration_Form(request.POST, request.FILES, use_required_attribute=False)
+        if form_values.is_valid():
             print('kkkkkkkkkkkkk')
             form_values.save()
             return redirect('Users:registration')
         else:
+            arg['form'] = form_values
             return render(request, 'Users/form.html', arg)
 
 
