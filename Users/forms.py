@@ -16,8 +16,8 @@ class Registration_Form(forms.ModelForm):
                 'last_name'     : forms.TextInput(attrs={'type': 'text','placeholder': "Last Name",'title': 'Last Name', "class":'span8'}),
                 'phone'         : forms.TextInput(attrs={'type': 'text','placeholder': "Phone Number",'pattern': '^[\+][8][8]\d{11}','title': 'Start with +88', "class":'span8'}),
                 'email'         : forms.TextInput(attrs={'type': 'text', 'placeholder': "Enter Your Email ",'title': 'Enter Your Mail Here',"class": 'span8'}),
-                'username'      : forms.TextInput(attrs={'type': 'text','required' : 'required', 'placeholder': "User Name",'title': 'User Name', "class":'span8'}),
-                'password'      : forms.TextInput(attrs={'type': 'password','required' : 'required', 'placeholder': "User Password",'pattern': '[A-Za-z0-9]{3,11}', 'title': 'Minimum 3 character!',"class":'span8'}),
+                'username'      : forms.TextInput(attrs={'type': 'text', 'placeholder': "User Name",'title': 'User Name', "class":'span8'}),
+                'password'      : forms.TextInput(attrs={'type': 'password', 'placeholder': "User Password",'pattern': '[A-Za-z0-9]{3,11}', 'title': 'Minimum 3 character!',"class":'span8'}),
                 'address'       : forms.TextInput(attrs={'type': 'text', 'placeholder': "User Address","class": 'span8'})
                  #'photo'        : forms.ImageField(label='Upload Photo')
                 }

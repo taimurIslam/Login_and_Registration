@@ -34,6 +34,7 @@ def login(request):
                             request.session['logged_in'] = True
                             request.session['username'] = user.username
                             request.session['id'] = user.pk
+                            request.session['photo'] = str(user.photo)
                             role = Role.objects.get(id = user.role_id)
                             request.session['role_title'] = role.role_title
                             return redirect('Users:admin_page')
@@ -53,20 +54,24 @@ def logout(request):
         del request.session['username']
         del request.session['id']
         del request.session['role_title']
+        del request.session['photo']
         return redirect('Users:login')
     else:
         return redirect('Users:login')
+
+
 #Registration Form
 def registration(request):
     arg = {}
-    arg['form'] = Registration_Form(use_required_attribute=False)
+    arg['form'] = Registration_Form
     if request.method == 'POST':
-        form_values = Registration_Form(request.POST, request.FILES, use_required_attribute=False)
+        form_values = Registration_Form(request.POST, request.FILES)
         if form_values.is_valid():
-            print('kkkkkkkkkkkkk')
+
             form_values.save()
             return redirect('Users:registration')
         else:
+            #messages.error(request, 'Incorrect Email or Password!')
             arg['form'] = form_values
             return render(request, 'Users/form.html', arg)
 
@@ -74,11 +79,15 @@ def registration(request):
     return render(request, 'Users/form.html', arg)
 
 
+
+
 #@login_required('logged_in', 'Users:login')
 def admin_page(request):
+    arg = {}
+    arg['users'] = User.objects.all()
     if 'logged_in' in request.session:
         if request.session['logged_in'] is True:
-            return render(request, 'Users/index.html', {'username':request.session['username']})
+            return render(request, 'Users/user_list.html', arg)
 
     else:
         return redirect('Users:login')
