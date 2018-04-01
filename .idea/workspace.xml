@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b17ea4b-d652-4c5b-8fa9-1e9ae5faf9bd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Login_and_Registration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Login_and_Registration.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/templates/Users/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Users/templates/Users/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/templates/Users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Users/templates/Users/user_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/templates/Users/user_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Users/templates/Users/user_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="89" column="62" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
+            <state relative-caret-position="179">
+              <caret line="92" column="13" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="13" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
@@ -32,58 +30,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/includes/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="55" column="57" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Users/templates/Users/user_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            <state relative-caret-position="150">
+              <caret line="58" column="133" selection-start-line="58" selection-start-column="133" selection-end-line="58" selection-end-column="133" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/theme.css">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../smart life/smartlife_8/main_website/user_registration/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="1029" column="17" lean-forward="true" selection-start-line="1029" selection-start-column="17" selection-end-line="1029" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.dataTables.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scripts/datatables/jquery.dataTables.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125332">
-              <caret line="627" column="43" selection-start-line="627" selection-start-column="34" selection-end-line="627" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Users/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="-510">
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registered_user_edit_or_delete.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../smart life/smartlife_8/main_website/user_registration/templates/registered_user_edit_or_delete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SmartDays/POC_Web_Smartdays/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="174" column="29" lean-forward="true" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,7 +72,7 @@
       <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Users/templates/Users/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="375">
               <caret line="31" column="52" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="52" />
             </state>
           </provider>
@@ -106,11 +86,12 @@
       <find>queryse</find>
       <find>ChoiceF</find>
       <find>add_user</find>
-      <find />
+      <find>data tab</find>
       <find>DataTables_Table_0</find>
       <find>dataTable</find>
       <find>module</find>
       <find>h3</find>
+      <find>module-head</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/../SmartDays</dir>
@@ -132,8 +113,9 @@
         <option value="$PROJECT_DIR$/assets/css/custom.css" />
         <option value="$PROJECT_DIR$/Users/templates/Users/form.html" />
         <option value="$PROJECT_DIR$/templates/includes/header.html" />
-        <option value="$PROJECT_DIR$/Users/views.py" />
         <option value="$PROJECT_DIR$/assets/css/theme.css" />
+        <option value="$PROJECT_DIR$/Users/urls.py" />
+        <option value="$PROJECT_DIR$/Users/views.py" />
         <option value="$PROJECT_DIR$/Users/templates/Users/user_list.html" />
       </list>
     </option>
@@ -178,43 +160,6 @@
             <path>
               <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
               <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="datatables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="flot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Login_and_Registration" type="462c0819:PsiDirectoryNode" />
               <item name="Users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,15 +174,6 @@
               <item name="Users" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="Users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Login_and_Registration" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDays" type="462c0819:PsiDirectoryNode" />
-              <item name="POC_Web_Smartdays" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,7 +182,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SmartDays" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../smart life" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -299,14 +235,20 @@
       <option name="project" value="LOCAL" />
       <updated>1522521937492</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit 10">
+      <created>1522536980301</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522536980301</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15833333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24015151" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -315,7 +257,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32840723" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32784185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32125205" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32125205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,7 +275,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 8" />
     <MESSAGE value="commit 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 9" />
+    <MESSAGE value="commit 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 10" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Users/views.py">
@@ -488,15 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../SmartDays/POC_Web_Smartdays/templates/base.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -576,30 +510,10 @@
         <state relative-caret-position="-1080" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SmartDays/POC_Web_Smartdays/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Users/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,20 +529,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Users/views.py">
+    <entry file="file://$PROJECT_DIR$/assets/css/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="89" column="62" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Users/templates/Users/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="52" />
+        <state relative-caret-position="100">
+          <caret line="1022" column="29" lean-forward="true" selection-start-line="1022" selection-start-column="29" selection-end-line="1022" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -639,17 +543,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Users/templates/Users/user_list.html">
+    <entry file="file://$PROJECT_DIR$/../SmartDays/POC_Web_Smartdays/users/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/theme.css">
+    <entry file="file://$PROJECT_DIR$/../smart life/smartlife_8/main_website/user_registration/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="1029" column="17" lean-forward="true" selection-start-line="1029" selection-start-column="17" selection-end-line="1029" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SmartDays/POC_Web_Smartdays/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="174" column="29" lean-forward="true" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/templates/Users/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/templates/Users/user_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="58" column="133" selection-start-line="58" selection-start-column="133" selection-end-line="58" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart life/smartlife_8/main_website/user_registration/templates/registered_user_edit_or_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../smart life/smartlife_8/main_website/user_registration/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

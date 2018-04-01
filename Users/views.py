@@ -13,7 +13,7 @@ def login(request):
 
     if 'logged_in' in request.session:
         if request.session['logged_in'] is True:
-            return redirect('Users:admin_page')
+            return redirect('Users:user_list')
 
     else:
         if request.method == 'GET':
@@ -37,7 +37,7 @@ def login(request):
                             request.session['photo'] = str(user.photo)
                             role = Role.objects.get(id = user.role_id)
                             request.session['role_title'] = role.role_title
-                            return redirect('Users:admin_page')
+                            return redirect('Users:user_list')
                         else:
                             messages.error(request, 'Your Account is not active. Please contact Admin.' )
                     else:
@@ -74,15 +74,13 @@ def registration(request):
             #messages.error(request, 'Incorrect Email or Password!')
             arg['form'] = form_values
             return render(request, 'Users/form.html', arg)
-
-
     return render(request, 'Users/form.html', arg)
 
 
 
 
 #@login_required('logged_in', 'Users:login')
-def admin_page(request):
+def user_list(request):
     arg = {}
     arg['users'] = User.objects.all()
     if 'logged_in' in request.session:
@@ -91,4 +89,11 @@ def admin_page(request):
 
     else:
         return redirect('Users:login')
+
+def user_edit(request, user_id):
+
+    user = User.objects.get(pk=user_id)
+    print(user.first_name)
+def user_delete(request, user_id):
+    pass
 

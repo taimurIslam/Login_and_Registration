@@ -8,5 +8,6 @@
     <orderEntry type="library" name="R Skeletons" level="application" />
     <orderEntry type="module" module-name="POC_Web_Smartdays" />
     <orderEntry type="module" module-name="Smart days" />
+    <orderEntry type="module" module-name="smart life" />
   </component>
 </module>
