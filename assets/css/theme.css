@@ -1046,7 +1046,9 @@ border-top-left-radius: 3px;
 }
 .module-body.table .table th, .module-body.table .table td {
 	padding-left: 15px;
-	padding-right: 15px
+	padding-right: 15px;
+	vertical-align: middle;
+	text-align: center;
 }
 .module-foot {
 	background: #f9f9f9;

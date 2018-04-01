@@ -83,17 +83,21 @@ def registration(request):
 def user_list(request):
     arg = {}
     arg['users'] = User.objects.all()
+    print(arg)
     if 'logged_in' in request.session:
         if request.session['logged_in'] is True:
+            print('kk')
             return render(request, 'Users/user_list.html', arg)
 
     else:
         return redirect('Users:login')
+    return HttpResponse("hhh")
 
 def user_edit(request, user_id):
-
+    print('kkkkkk')
     user = User.objects.get(pk=user_id)
     print(user.first_name)
-def user_delete(request, user_id):
-    pass
+    return render(request, 'Users/user_list.html')
+# def user_delete(request, user_id):
+#     return render(request, 'Users/user_list.html')
 
